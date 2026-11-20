@@ -1,21 +1,21 @@
 <header class="topbar">
   <a class="logo dark-logo" href="/"><span class="logo-mark">A</span> Attendly</a>
-  <div class="teacher"><span class="teacher-avatar">AM</span><span><strong>Alex Morgan</strong><small>Class teacher</small></span></div>
+  <div class="teacher"><span class="teacher-avatar">SW</span><span><strong>Swati mam!</strong><small>Class teacher</small></span></div>
 </header>
 <main class="dashboard">
   <section class="welcome">
-    <div><p class="small-label green-label">TEACHER DASHBOARD</p><h1>Good morning, Alex</h1><p class="subtext">Here is your class attendance overview.</p></div>
+    <div><p class="small-label green-label">TEACHER DASHBOARD</p><h1>Good morning, Swati mam</h1><p class="subtext">Here is your class attendance overview.</p></div>
     <form class="date-form" action="/" method="get"><label for="date">Attendance date</label><input id="date" name="date" type="date" value="{{DATE}}"><button class="button light-button" type="submit">View date</button></form>
   </section>
   <p class="date-label">{{DATE_LABEL}}</p>
   <section class="stats" aria-label="Attendance summary">
-    <article class="stat"><span class="stat-title">TOTAL STUDENTS</span><strong>{{TOTAL}}</strong><small>Computer Science · Year 2</small></article>
+    <article class="stat"><span class="stat-title">TOTAL STUDENTS</span><strong>{{TOTAL}}</strong><small>BCA · Year 1</small></article>
     <article class="stat"><span class="stat-title">PRESENT</span><strong>{{PRESENT}}</strong><small>Including late students: {{LATE}}</small></article>
     <article class="stat"><span class="stat-title">ABSENT</span><strong>{{ABSENT}}</strong><small>For the selected date</small></article>
     <article class="stat"><span class="stat-title">ATTENDANCE RATE</span><strong>{{RATE}}<em>%</em></strong><small>Based on marked students</small></article>
   </section>
   <section class="attendance-card">
-    <div class="card-heading"><div><h2>Class attendance</h2><p>Choose a status for each student, then save.</p></div><span class="class-tag">CS · YEAR 2 · SECTION A</span></div>
+    <div class="card-heading"><div><h2>Class attendance</h2><p>Choose a status for each student, then save.</p></div><span class="class-tag">BCA · YEAR 1 · SECTION B</span></div>
     <p class="success">{{MESSAGE}}</p>
     <form action="/attendance" method="post">
       <input type="hidden" name="date" value="{{DATE}}">
