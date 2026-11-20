@@ -1,0 +1,26 @@
+<main class="login-layout">
+  <section class="intro">
+    <div class="logo"><span class="logo-mark">A</span> Attendly</div>
+    <div class="intro-copy">
+      <p class="small-label">STUDENT ATTENDANCE TRACKER</p>
+      <h1>Every student<br>counts.</h1>
+      <p>A simple way for teachers to take attendance and keep class records in one place.</p>
+    </div>
+    <p class="intro-foot">A small classroom project</p>
+  </section>
+  <section class="login-side">
+    <form class="login-card" action="/login" method="post">
+      <p class="small-label green-label">TEACHER LOGIN</p>
+      <h2>Welcome back</h2>
+      <p class="subtext">Sign in to manage your class attendance.</p>
+      <label for="username">Username</label>
+      <input id="username" name="username" type="text" placeholder="Enter username" required autocomplete="username">
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" placeholder="Enter password" required autocomplete="current-password">
+      <p class="error">{{ERROR}}</p>
+      <button class="button primary-button" type="submit">Sign in <span>→</span></button>
+      <div class="demo-box"><strong>Demo account</strong><br>Username: teacher<br>Password: teach123</div>
+      <p class="login-note">For classroom presentation use</p>
+    </form>
+  </section>
+</main>
