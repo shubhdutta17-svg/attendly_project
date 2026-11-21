@@ -11,7 +11,7 @@ Open: https://attendly-student-tracker.onrender.com
 ## Features
 
 - Teacher login and logout
-- Sample class of 10 students
+- Sample class  BCA:
 - Attendance by date: Present, Absent, Late, or Not marked
 - Attendance summary and percentage
 - Python handles form submissions and saves records to JSON
