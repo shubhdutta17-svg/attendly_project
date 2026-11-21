@@ -6,7 +6,7 @@ A small college presentation project with HTML and CSS for the frontend and a Py
 
 Open: https://attendly-student-tracker.onrender.com
 
-Demo login: **teacher** / **teach123**
+ login: **teacher** / **teach123**
 
 ## Features
 
